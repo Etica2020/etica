@@ -21,8 +21,6 @@ p {
     font-size: 14px;
   }
   
-  a { color: #3CC; }
-  
   a:hover { color: #FF0; }
   
   /*----------
@@ -121,31 +119,74 @@ p {
             animation-name: fadeInRight;
   }
   
-  
-  .primary-button a {
-    display: inline-block;
-    background-color: rgb(52, 52, 199);
-    padding: 20px 35px;
-    max-width: 70%;
-    max-height: 80%;
-    width: 70%;
-    height: 80%;
+  .primary-button1{
+    float: left;
+    background-color: #ff7d27;
+    padding: 15px 24px;
     border-radius: 5px;
-    text-transform: uppercase;
-    font-size: 30px;
-    color: #fff;
-    font-weight: 700;
     text-decoration: none;
     letter-spacing: 0.5px;
-    margin-left:100px;
-    margin-top:20px;
-    text-shadow: 6px 10px 8px black;
-    box-shadow: 4px 4px 4px rgb(37, 37, 37);
-    border: 2px solid rgb(2, 1, 56);
-    
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(87, 83, 83);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 1.5px 1.5px 1.5px rgb(56, 56, 56);
   }
   
+  .primary-button1:hover{
+    background-color: #ffa127;
+    width: 110px;
+    height: 76px;
+    color: rgb(238, 253, 182);
+    text-decoration: none;
+  }
   
+  .primary-button1:active{
+    background-color: #ffa127;
+    width: 110px;
+    height: 76px;
+    color: rgb(238, 253, 182);
+    text-decoration: none;
+  }
+  
+  .primary-button2{
+    float: right;
+    background-color: #ff7d27;
+    padding: 15px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(87, 83, 83);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 1.5px 1.5px 1.5px rgb(56, 56, 56);
+  }
+  
+  .primary-button2:hover{
+    background-color: #ffa127;
+    width: 110px;
+    height: 76px;
+    color: rgb(238, 253, 182);
+    text-decoration: none;
+  }
+  
+  .primary-button2:active{
+    background-color: #ffa127;
+    width: 110px;
+    height: 76px;
+    color: rgb(238, 253, 182);
+    text-decoration: none;
+  }
+
   .parallax-content {
     width: 100%;
     min-height: 100vh;
@@ -160,7 +201,10 @@ p {
   }
   .botones{
     display:flex;
-  margin-left:30%;
+    width: 28%;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: space-between;
   }
   .baner-content h1 {
     margin-top: 0px;
