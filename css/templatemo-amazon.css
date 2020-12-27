@@ -496,12 +496,8 @@ p {
   
   footer {
     text-align: center;
-    background-color: #282b2f;
-    padding: 70px 0px;
-  }
-  
-  footer .primary-button {
-    margin-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 20px;
   }
   
   footer ul {
