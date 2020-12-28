@@ -121,7 +121,7 @@ p {
   
   .primary-button1{
     float: left;
-    background-color: #ff7d27;
+    background-color: #f99602;
     padding: 15px 24px;
     border-radius: 5px;
     text-decoration: none;
@@ -130,7 +130,7 @@ p {
     height: 70px;
     cursor: pointer;
     box-shadow: 3px 3px 3px rgb(87, 83, 83);
-    color: #fff;
+    color: #1773b1;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 700;
@@ -138,24 +138,24 @@ p {
   }
   
   .primary-button1:hover{
-    background-color: #ffa127;
+    background-color: #f99602;
     width: 110px;
     height: 76px;
-    color: rgb(238, 253, 182);
+    color: #1773b1;
     text-decoration: none;
   }
   
   .primary-button1:active{
-    background-color: #ffa127;
+    background-color: #f99602;
     width: 110px;
     height: 76px;
-    color: rgb(238, 253, 182);
+    color: #1773b1;
     text-decoration: none;
   }
   
   .primary-button2{
     float: right;
-    background-color: #ff7d27;
+    background-color: #f99602;
     padding: 15px 24px;
     border-radius: 5px;
     text-decoration: none;
@@ -164,7 +164,7 @@ p {
     height: 70px;
     cursor: pointer;
     box-shadow: 3px 3px 3px rgb(87, 83, 83);
-    color: #fff;
+    color: #1773b1;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 700;
@@ -172,18 +172,18 @@ p {
   }
   
   .primary-button2:hover{
-    background-color: #ffa127;
+    background-color: #f99602;
     width: 110px;
     height: 76px;
-    color: rgb(238, 253, 182);
+    color: #1773b1;
     text-decoration: none;
   }
   
   .primary-button2:active{
-    background-color: #ffa127;
+    background-color: #f99602;
     width: 110px;
     height: 76px;
-    color: rgb(238, 253, 182);
+    color: #1773b1;
     text-decoration: none;
   }
 
@@ -195,9 +195,10 @@ p {
   
   
   .baner-content {
-    padding-top: 30vh;
+    padding-top: 25vh;
+    padding-bottom: 30px;
     text-align: center;
-    background-color:white;
+    background-color: #24303e;
   }
   .botones{
     display:flex;
@@ -224,8 +225,8 @@ p {
   .baner-content span {
     display: inline-block;
     margin-top: 50px;
-    font-size: 3em;
-    color: blue;
+    font-size: 2.5em;
+    color: #f9f9f9;
   }
 
 .baner-content label {
@@ -496,8 +497,9 @@ p {
   
   footer {
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 10%;
+    padding-bottom: 10px;
+    color: #f9f9f9;
   }
   
   footer ul {
