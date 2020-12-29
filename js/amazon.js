@@ -147,7 +147,7 @@ function siguiente(pregunta, respuesta){
             break;
         case 25:
             $(".respuestas").show();
-            $(".baner-content").css("padding-top", "5vh");
+            $(".baner-content").css("padding-top", "0");
             break;
     }
 }

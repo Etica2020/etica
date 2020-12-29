@@ -247,7 +247,6 @@ p {
     padding-right: 15px;
     padding-top: 5vh;
     background-attachment: fixed;
-    min-height: 100vh;
     background-size: cover;
     background-position: center center;
   }
