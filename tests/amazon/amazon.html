@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>TIS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/fontAwesome.css">
+    <link rel="stylesheet" href="../../css/hero-slider.css">
+    <link rel="stylesheet" href="../../css/templatemo-amazon.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../../js/amazon.js"></script>
+
+</head>
+
+<body>
+
+
+<div class="parallax-content baner-content" id="test-amazon">
+    <div class="container">
+        <div class="pregunta1">
+            <span>¿Utilizas o has utilizado algún servicio de Amazon?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(1,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(1,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta2">
+            <span>¿Al crear una cuenta en Amazon crees que además del correo electrónico te piden un teléfono?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(2,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(2,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta3">
+            <span>¿Te piden que proporciones tu ubicación?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(3,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(3,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta4">
+            <span>A priori solo debes dar tu nombre y un correo electrónico</span>
+            <div class="botones">
+                <a class = "primary-button2" onclick="siguiente(4,1)" style="margin-left: 35%">OK</a>
+            </div>
+        </div>
+        <div class="pregunta5">
+            <span>¿Crees que Amazon recopila más información de la que le proporcionarías como usuario?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(5,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(5,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta6">
+            <span>¿Crees que Amazon conoce la ubicación de tus dispositivos?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(6,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(6,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta7">
+            <span>Entonces crees que Amazon ofrece las mismas ofertas a todos los usuarios. ¿Estás de acuerdo? </span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(7,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(7,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta8">
+            <span>¿Crees que conoce tus datos de salud?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(8,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(8,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta9">
+            <span>Di si la siguiente afirmación es cierta: Amazon recopila datos de forma automática pero nunca llega a ser intrusivo.</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(9,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(9,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta10">
+            <span>Amazon ofrece ofertas personalizadas gracias a la infomación que recopila de sus usuarios. ¿Es esto cierto?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(10,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(10,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta11">
+            <span>¡Respuesta incorrecta! Amazon recopila muchos más datos de los que aportas como usuario para poder generar un perfil y, así, poder ofrecer ofertas personalizadas. </span>
+            <span>Sabiendo esto, pasa a la siguiente pregunta</span>
+            <div class="botones">
+                <a class = "primary-button2" onclick="siguiente(11,1)" style="margin-left: 35%">OK</a>
+            </div>
+        </div>
+        <div class="pregunta12">
+            <span>¡Exacto! Pero, para poder dar estas ofertas personalizadas, Amazon debe recopilar muchos más datos de los que aportas como usuario para poder generar un perfil de cada usuario. </span>
+            <span>Sabiendo esto, pasa a la siguiente pregunta</span>
+            <div class="botones">
+                <a class = "primary-button2" onclick="siguiente(12,1)" style="margin-left: 35%">OK</a>
+            </div>
+        </div>
+        <div class="pregunta13">
+            <span>Y sabiendo que usan browser fingerprinting*, ¿crees que consiguen información privada?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(13,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(13,0)">NO</a>
+            </div>
+            <footer>*Browser fingerprinting: Identificación (casi única sin cookies) de usuarios analizando características del navegador y del dispositivo desde el que se conectan.</footer>
+        </div>
+        <div class="pregunta14">
+            <span>¿Crees que usan técnicas de browser fingerprinting* para obtener información privada?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(14,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(14,0)">NO</a>
+            </div>
+            <footer>*Browser fingerprinting: Identificación (casi única sin cookies) de usuarios analizando características del navegador y del dispositivo desde el que se conectan.</footer>
+        </div>
+        <div class="pregunta15">
+            <span>A través de browser fingerprinting, Amazon recaba información privada como la IP (consiguen tu ubicación) entre otras muchas cosas aunque tengas las cookies desactivadas. Saben perfectamente quién eres en cuanto accedes a sus servicios.</span>
+            <div class="botones">
+                <a class = "primary-button2" onclick="siguiente(15,1)" style="margin-left: 35%">OK</a>
+            </div>
+        </div>
+        <div class="pregunta16">
+            <span>¿Crees que resulta fácil encontrar la forma de ejercer el derecho de oposición a que tus datos sean tratados?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(16,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(16,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta17">
+            <span>¿Crees que al oponerte a que traten ciertos datos, no disfrutarás de algunos servicios de la compañia?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(17,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(17,0)">NO</a>
+            </div>
+            <footer>Nota: En los términos y condiciones, Amazon te da a entender que si te opones a que traten tus datos, no disfrutarás de todos sus servicios.</footer>
+        </div>
+        <div class="pregunta18">
+            <span>¿Crees que la finalidad con la que tratan tus datos es exclusivamente para venderte productos u ofrecerte servicios?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(18,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(18,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta19">
+            <span>¿Crees que Amazon guarda tus datos indefinidamente?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(19,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(19,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta20">
+            <span>¿Crees que Alexa* siempre está escuchando?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(20,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(20,0)">NO</a>
+            </div>
+            <footer>*Alexa: Asistente virtual de voz desarrollado por Amazon.</footer>
+        </div>
+        <div class="pregunta21">
+            <span>¿Crees que Alexa graba todas tus conversaciones?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(21,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(21,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta22">
+            <span>¿Crees que Alexa graba todas tus consultas?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(22,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(22,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta23">
+            <span>¿Crees que los empleados de Amazon escuchan todas las grabaciones de tus consultas a Alexa?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(23,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(23,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta24">
+            <span>¿Crees que Alexa borra en algún momento las grabaciones de las consultas?</span>
+            <div class="botones">
+                <a class = "primary-button1" onclick="siguiente(24,1)">SI</a>
+                <a class = "primary-button2" onclick="siguiente(24,0)">NO</a>
+            </div>
+        </div>
+        <div class="pregunta25">
+            <span>Alexa siempre está escuchando en busca del comando que la activa. Sin embargo, no graba todas las conversaciones. Solo graba cuando se produce la interacción con Alexa. Empleados de Amazon escuchan únicamente las consultas que han producido fallo con el fin de mejorar el servicio. Estas grabaciones nunca se borrarán ni aunque lo solicites porque pueden estar en los sistemas de terceros. </span>
+            <div class="botones">
+                <a class = "primary-button2" onclick="siguiente(25,1);resultado()" style="margin-left: 35%">OK</a>
+            </div>
+        </div>
+        <div class="respuestas">
+            <span id="resultado"></span>
+            <div class="service-content" id="services">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 2</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 3</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 5</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/testGoogle1.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 6</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/amazon/amazon1.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 7</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 8</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 9</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 10</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 13</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 14</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 16</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 17</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 18</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 19</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 20</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 21</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 22</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 23</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service-item">
+                                        <h4>Pregunta 24</h4>
+                                        <div class="line-dec"></div>
+                                        <a class="boton_respuesta" href="tests/test.html">Empezar test</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="amzn.png" style="position: fixed;right: 20px;bottom: 20px;height: 150px;width: 200px">
+</div>
+
+<script>
+    hideAll();
+    $(".pregunta1").show();
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="../js/vendor/bootstrap.min.js"></script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+<script>
+    function openCity(cityName) {
+        var i;
+        var x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(cityName).style.display = "block";
+    }
+</script>
+
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+
+</body>
+</html>
