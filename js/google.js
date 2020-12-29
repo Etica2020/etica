@@ -10,7 +10,11 @@ function hideAll(){
     $(".pregunta7").hide();
     $(".pregunta8").hide();
     $(".pregunta9").hide();
-    $(".respuestas").hide();
+    preguntas.forEach(numero => $(".respuesta"+numero).hide());
+    $(".respuesta8").hide();
+    $("#todasNeg").hide();
+    $("#tituloRespuestas").hide();
+    $("#subir").hide();
 }
 
 function eligeTest(numeroPregunta){
@@ -26,7 +30,13 @@ function eligeTest(numeroPregunta){
     hideAll();
     switch(preguntaReal){
         case 0:
-            $(".respuestas").show();
+            if(preguntasNegativas.length == 0){
+                $("#todasNeg").show("slow");
+            }else{
+                $("#subir").show();
+                $("#tituloRespuestas").show("slow");
+                preguntasNegativas.forEach(numero => $(".respuesta"+numero).show("slow"));
+            }
         break;
         case 1:
             $(".pregunta1").show();
@@ -57,9 +67,13 @@ function eligeTest(numeroPregunta){
         break;
     }
     preguntas.splice(numeroPregunta, 1); //Elimina el elemento elegido del array
+    console.log('Preguntas ', preguntas);
+    console.log("PreguntasNegativas ", preguntasNegativas);
 }
 
 function eligeTestNegativo(pregunta, sigPregunta){
-    preguntasNegativas.push(pregunta);
+    if(pregunta != 5){
+        preguntasNegativas.push(pregunta);
+    }
     eligeTest(sigPregunta);
 }

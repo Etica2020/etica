@@ -1,137 +1,279 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>TIS</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="../../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../css/fontAwesome.css">
-        <link rel="stylesheet" href="../../css/hero-slider.css">
-        <link rel="stylesheet" href="../../css/templatemo-test-google.css">
-        <script src="../../js/google.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Google Test</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/fontAwesome.css">
+  <link rel="stylesheet" href="../../css/hero-slider.css">
+  <link rel="stylesheet" href="../../css/templatemo-test-google.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+  <script src="../../js/google.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="../../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
 
 <body>
 
-    <div class="parallax-content baner-content" id="test-google">
-        <div class="container">
-            <div class="pregunta1">
-                <span class="pregunta-google">¿Crees que Google sabe si tienes pareja o hijos?</span>
-                <div class="botones">
-                    <a class = "primary-button1" href="#services" onclick="eligeTest()">Sí</a>
-                    <a class = "primary-button2" href="#services" onclick="eligeTestNegativo(1)">No</a>
-                </div>
-            </div>
-            <div class="pregunta2">
-                <span class="pregunta-google">¿Crees que Google sabe qué nivel de estudios tienes?</span>
-                <div class="botones">
-                    <a class = "primary-button1" href="#services" onclick="eligeTest()" >Sí</a>
-                    <a class = "primary-button2" href="#services" onclick="eligeTestNegativo(2)" >No</a>
-                </div>
-            </div>
-            <div class="pregunta3">
-                <span class="pregunta-google">¿Crees que Google sabe que hiciste el pasado fin de semana?</span>
-                <div class="botones">
-                  <a class = "primary-button1" href="#services" onclick="eligeTest()" >Sí</a>
-                  <a class = "primary-button2" href="#services" onclick="eligeTestNegativo(3)" >No</a>
-                </div>
-            </div>
-            <div class="pregunta4">
-                <span class="pregunta-google">¿Crees qué si desactivas el GPS, Google puede llegar a conocer tu posición?</span>
-                <div class="botones">
-                  <a class = "primary-button1" href="#services" onclick="eligeTest(5)" >Sí</a>
-                  <a class = "primary-button2" href="#services" onclick="eligeTestNegativo(4)" >No</a>
-                </div>
-            </div>
-            <div class="pregunta5">
-                <span class="pregunta-google">¿Tienes el asistente de Google en tu móvil?</span>
-                <div class="botones">
-                  <a class = "primary-button1" href="#services" onclick="eligeTest(8)" >Sí</a>
-                  <a class = "primary-button2" href="#services" onclick="eligeTestNegativo(5)" >No</a>
-                </div>
-            </div>
-            <div class="pregunta6">
-                <span class="pregunta-google">¿Crees que Google podría estar leyendo tus correos de Gmail?</span>
-                <div class="botones">
-                  <a class = "primary-button1" href="#services" onclick="eligeTest()" >Sí</a>
-                  <a class = "primary-button2" href="#services" onclick="eligeTestNegativo(6)" >No</a>
-                </div>
-            </div>
-            <div class="pregunta7">
-                <span class="pregunta-google">¿Sabías que Google espía a tus hijos?</span>
-                <div class="botones">
-                  <a class = "primary-button1" href="#services" onclick="eligeTest()" >Sí</a>
-                  <a class = "primary-button2" href="#services" onclick="eligeTestNegativo(7)" >No</a>
-                </div>
-            </div>
-            <div class="pregunta8">
-                <span class="pregunta-google">¿Crees que las conversaciones que tienes con tu asistente son privadas?</span>
-                <div class="botones">
-                  <a class = "primary-button1" href="#services" onclick="eligeTest(6)" >Sí</a>
-                  <a class = "primary-button2" href="#services" onclick="eligeTestNegativo(8)" >No</a>
-                </div>
-            </div>
-            <div class="pregunta9">
-                <span class="pregunta-google">¿Crees que Google sabe qué contactos tienes en el móvil?</span>
-                <div class="botones">
-                  <a class = "primary-button1" href="#services" onclick="eligeTest()" >Sí</a>
-                  <a class = "primary-button2" href="#services" onclick="eligeTestNegativo(9)" >No</a>
-                </div>
-            </div>
-            <div class="respuestas">
-                <span class="pregunta-google">Aquí las respuestas</span>
-                
-            </div>
+  <!-- Preguntas -->
+  <div class="parallax-content baner-content" id="test-google">
+    <div class="container">
+      <div class="pregunta1">
+        <span class="pregunta-google">¿Crees que Google sabe si tienes pareja o hijos?</span>
+        <div class="botones">
+          <a class="primary-button1" href="#services" onclick="eligeTest()">Sí</a>
+          <a class="primary-button2" href="#services" onclick="eligeTestNegativo(1)">No</a>
         </div>
+      </div>
+      <div class="pregunta2">
+        <span class="pregunta-google">¿Crees que Google sabe qué nivel de estudios tienes?</span>
+        <div class="botones">
+          <a class="primary-button1" href="#services" onclick="eligeTest()">Sí</a>
+          <a class="primary-button2" href="#services" onclick="eligeTestNegativo(2)">No</a>
+        </div>
+      </div>
+      <div class="pregunta3">
+        <span class="pregunta-google">¿Crees que Google sabe que hiciste el pasado fin de semana?</span>
+        <div class="botones">
+          <a class="primary-button1" href="#services" onclick="eligeTest()">Sí</a>
+          <a class="primary-button2" href="#services" onclick="eligeTestNegativo(3)">No</a>
+        </div>
+      </div>
+      <div class="pregunta4">
+        <span class="pregunta-google">¿Crees qué si desactivas el GPS, Google puede llegar a conocer tu posición?</span>
+        <div class="botones">
+          <a class="primary-button1" href="#services" onclick="eligeTest()">Sí</a>
+          <a class="primary-button2" href="#services" onclick="eligeTestNegativo(4)">No</a>
+        </div>
+      </div>
+      <div class="pregunta5">
+        <span class="pregunta-google">¿Tienes el asistente de Google?</span>
+        <div class="botones">
+          <a class="primary-button1" href="#services" onclick="eligeTest(8)">Sí</a>
+          <a class="primary-button2" href="#services" onclick="eligeTestNegativo(5)">No</a>
+        </div>
+      </div>
+      <div class="pregunta6">
+        <span class="pregunta-google">¿Crees que Google podría estar leyendo tus correos de Gmail?</span>
+        <div class="botones">
+          <a class="primary-button1" href="#services" onclick="eligeTest()">Sí</a>
+          <a class="primary-button2" href="#services" onclick="eligeTestNegativo(6)">No</a>
+        </div>
+      </div>
+      <div class="pregunta7">
+        <span class="pregunta-google">¿Sabías que Google espía a tus hijos?</span>
+        <div class="botones">
+          <a class="primary-button1" href="#services" onclick="eligeTest()">Sí</a>
+          <a class="primary-button2" href="#services" onclick="eligeTestNegativo(7)">No</a>
+        </div>
+      </div>
+      <div class="pregunta8">
+        <span class="pregunta-google">¿Crees que las conversaciones que tienes con tu asistente son privadas?</span>
+        <div class="botones">
+          <a class="primary-button1" href="#services" onclick="eligeTestNegativo(8)">Sí</a>
+          <a class="primary-button2" href="#services" onclick="eligeTest()">No</a>
+        </div>
+      </div>
+      <div class="pregunta9">
+        <span class="pregunta-google">¿Crees que Google sabe qué contactos tienes en el móvil?</span>
+        <div class="botones">
+          <a class="primary-button1" href="#services" onclick="eligeTest()">Sí</a>
+          <a class="primary-button2" href="#services" onclick="eligeTestNegativo(9)">No</a>
+        </div>
+      </div>
+      
+      <!-- Respuestas -->
+      <div class="service-content" id="todasNeg">
+        <div class="container">
+          <div class="service-item">
+            <p class="tituloRespuestas2">Vaya, parece que conoces muy bien la Política de Privacidad de Google.</p>
+            <div class="line-dec2"></div>
+          </div>
+        </div>
+      </div>
+
+        <div class="service-content" id="respuestas">
+          <div class="container">
+            <div class="service-item" id="tituloRespuestas">
+              <p class="tituloRespuestas">Preguntas que has contestado negativamente</p>
+              <div class="line-dec2"></div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6 respuesta1">
+                    <div class="service-item">
+                      <h4>¿Crees que Google sabe si tienes pareja o hijos?</h4>
+                      <div class="line-dec"></div>
+                      <p>Google determina si tienes hijos, pareja, si estas alquilando, en que tipo de empresa trabajas y muchos otros aspectos de tu vida gracias
+                        al uso que haces de sus servicios.</p>
+                          <a class="boton_respuesta" target="_blank" href="https://adssettings.google.com/u/4/authenticated?hl=es ">Más info</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 respuesta2">
+                    <div class="service-item">
+                      <h4>¿Crees que Google sabe qué nivel de estudios tienes?</h4>
+                      <div class="line-dec"></div>
+                      <div class="estudios">
+                        <div class="estudios2">
+                          <p>Google determina tu nivel de estudios y muchos otros aspectos de tu vida gracias al uso que haces de sus servicios.</p>
+                          <a class="boton_respuesta" target="_blank" href="https://adssettings.google.com/u/4/authenticated?hl=es ">Más info</a>
+                        </div>
+                        <img src="../../img/google/estudios.png" width="150" height="150">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 respuesta3">
+                    <div class="service-item">
+                      <h4>¿Crees que Google sabe que hiciste el pasado fin de semana?</h4>
+                      <div class="line-dec"></div>
+                      <p>Google almacena todos los lugares en los que has estado y lo representa en un mapa.
+                        No solo sabe dónde has estado en un día y hora determinada sino también qué camino 
+                        has tomado, donde te has detenido y que transporte has usado.
+                      </p>
+                      <a class="boton_respuesta" target="_blank" href="https://www.google.com/maps/timeline?hl=es&pb">Más info</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 respuesta4">
+                    <div class="service-item">
+                      <h4>¿Crees qué si desactivas el GPS, Google puede llegar a conocer tu posición?</h4>
+                      <div class="line-dec"></div>
+                      <p>A parte del GPS Google usa tu dirección IP, datos del sensor de tu dispositivo e 
+                        información sobre elementos cercanos a tu dispositivo como puntos de acceso Wi-Fi, 
+                        antenas de servicio de telefonía móvil y dispositivos con el Bluetooth activado para 
+                        determinar tu posición en cada momento.</p>
+                        <a class="boton_respuesta" target="_blank" href="https://www.gstatic.com/policies/privacy/pdf/20200930/r9u74aii/google_privacy_policy_es_eu.pdf">Más info</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 respuesta6">
+                    <div class="service-item">
+                      <h4>¿Crees que Google podría estar leyendo tus correos de Gmail?</h4>
+                      <div class="line-dec"></div>
+                      <p>"Google afirma que los desarrolladores de aplicaciones de terceros son capaces de 
+                        analizar el contenido de los mensajes de Gmail".</p>
+                        <a class="boton_respuesta" target="_blank" href="https://www.gizlogic.com/google-gmail-apps-terceros-controversia">Más info</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 respuesta7">
+                    <div class="service-item">
+                      <h4>¿Sabías que Google espía a tus hijos?</h4>
+                      <div class="line-dec"></div>
+                      <p>Google recopila información personal de los niños que usan sus servicios, que incluye: 
+                        "dónde se encuentran físicamente, las páginas web que visitan, lo que buscan en el motor, los resultados en los que hacen clic, 
+                        los vídeos que ven en YouTube, sus grabaciones de voz y otra información sobre su comportamiento".</p>
+                        <a class="boton_respuesta" target="_blank" href="https://www.elmundo.es/tecnologia/2020/02/25/5e5459fcfc6c8366368b4577.html ">Más info</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 respuesta8">
+                    <div class="service-item">
+                      <h4>¿Crees que las conversaciones que tienes con tu asistente son privadas?</h4>
+                      <div class="line-dec"></div>
+                      <p>En realidad todo lo que hablas con tu asistente es almacenado y posteriormente analizado para mejorar 
+                        el producto y hacer que el asistente de respuestas más orgánicas. </p>
+                      <a class="boton_respuesta" target="_blank" href="https://www.iproup.com/innovacion/10839-google-escucha-conversaciones-para-mostrar-su-publicidad ">Más info</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 respuesta9">
+                    <div class="service-item">
+                      <h4>¿Crees que Google sabe qué contactos tienes en el móvil?</h4>
+                      <div class="line-dec"></div>
+                      <p>Google almacena los contactos de tu móvil y de todos los móviles donde hayas utilizado tu cuenta de Google.</p>
+                      <a class="boton_respuesta" target="_blank" href="https://contacts.google.com/?hl=es">Más info</a>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <footer>
+    <div class="contenido">
+        <div class="botones_inferiores">
+                    <a class="footer_button" id="subir" href="#respuestas">Subir</a>
+                    <a class="footer_button" href="../../index.html">Página principal</a>
+                  </div>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="../../js/vendor/bootstrap.min.js"></script>
-    <script src="../../js/plugins.js"></script>
-    <script src="../../js/main.js"></script>
-    <script>
-        function openCity(cityName) {
-            var i;
-            var x = document.getElementsByClassName("city");
-            for (i = 0; i < x.length; i++) {
-               x[i].style.display = "none";  
-            }
-            document.getElementById(cityName).style.display = "block";  
-        }
-    </script>
+                </ul>
+            </div>
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+  <script>
+    function openCity(cityName) {
+      var i;
+      var x = document.getElementsByClassName("city");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      document.getElementById(cityName).style.display = "block";
+    }
+  </script>
 
-    <script>
-        $(document).ready(function(){
-          eligeTest();
-          // Add smooth scrolling to all links
-          $(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
 
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+  <script src="../../js/vendor/bootstrap.min.js"></script>
+  <script src="../../js/plugins.js"></script>
+  <script src="../../js/main.js"></script>
+  <script>
+    function openCity(cityName) {
+      var i;
+      var x = document.getElementsByClassName("city");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      document.getElementById(cityName).style.display = "block";
+    }
+  </script>
 
-              // Store hash
-              var hash = this.hash;
+  <script>
+    $(document).ready(function () {
+      eligeTest();
+      // Add smooth scrolling to all links
+      $(".fixed-side-navbar a, .primary-button a").on('click', function (event) {
 
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-           
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
           });
-        });
-    </script>
+        } // End if
+      });
+    });
+  </script>
 
 </body>
+
 </html>
