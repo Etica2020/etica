@@ -30,6 +30,28 @@ function hideAll(){
     $(".respuestas").hide();
 }
 
+function hideAllAnswers(){
+    $(".P2").hide();
+    $(".P3").hide();
+    $(".P5").hide();
+    $(".P6").hide();
+    $(".P7").hide();
+    $(".P8").hide();
+    $(".P9").hide();
+    $(".P10").hide();
+    $(".P13").hide();
+    $(".P14").hide();
+    $(".P16").hide();
+    $(".P17").hide();
+    $(".P18").hide();
+    $(".P19").hide();
+    $(".P20").hide();
+    $(".P21").hide();
+    $(".P22").hide();
+    $(".P23").hide();
+    $(".P24").hide();
+}
+
 function siguiente(pregunta, respuesta){
     hideAll();
     if (respuestas[pregunta - 1] != -1 && respuestas[pregunta - 1] != respuesta) respuestasIncorrectas.push(pregunta);
@@ -125,13 +147,17 @@ function siguiente(pregunta, respuesta){
             break;
         case 25:
             $(".respuestas").show();
-            $(".baner-content").css("padding-top", "0");
+            $(".baner-content").css("padding-top", "5vh");
             break;
     }
 }
 
 function resultado(){
    let res = 19 - respuestasIncorrectas.length;
-   if (res == 19) document.getElementById("resultado").innerHTML = "Has conseguido acertar todas las preguntas. ¡Enhorabuena!";
-   document.getElementById("resultado").innerHTML = res + " / 19 aciertos. Soluciones:";
+   if (res == 19) document.getElementById("resultado").innerHTML = "19 / 19. Has conseguido acertar todas las preguntas. ¡Enhorabuena!";
+   else document.getElementById("resultado").innerHTML = res + " / 19 aciertos. Soluciones:";
+   hideAllAnswers();
+   for (var i = 0; i < respuestasIncorrectas.length; i++) {
+       $(".P" + respuestasIncorrectas[i]).show();
+   }
 }
