@@ -121,6 +121,15 @@ a:hover { color: #FF0; }
           animation-name: fadeInRight;
 }
 
+.contador-img{
+  height: 20px;
+  margin-bottom: 20px;
+}
+.contador-txt{
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
 .footer_button a{
   display: inline-block;
   background-color: #ff7d27;
