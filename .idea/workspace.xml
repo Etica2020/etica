@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76fe1edf-421d-45fc-943a-e1ab30080f94" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lucia" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mC7rw93O9GBdhgMDwX1V550fCQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - Universidad Complutense de Madrid (UCM)\UniUCM\2020 - 2021\ELP\TIS\etica\js" />
+      <recent name="E:\OneDrive - Universidad Complutense de Madrid (UCM)\UniUCM\2020 - 2021\ELP\TIS\etica\tests\amazon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - Universidad Complutense de Madrid (UCM)\UniUCM\2020 - 2021\ELP\TIS\etica\tests\amazon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="amazon1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/etica/tests/amazon/amazon1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/etica/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.amazon1.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76fe1edf-421d-45fc-943a-e1ab30080f94" name="Default Changelist" comment="" />
+      <created>1608985928508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608985928508</updated>
+      <workItem from="1608985960536" duration="21696000" />
+      <workItem from="1609158633858" duration="7909000" />
+      <workItem from="1609192073241" duration="27310000" />
+      <workItem from="1609268710478" duration="801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2337" y="332" width="664" height="488" key="MultipleFileMergeDialog" timestamp="1609268763316">
+      <screen x="1800" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2337" y="332" width="664" height="488" key="MultipleFileMergeDialog/0.0.1200.769/1800.0.1920.1050@1800.0.1920.1050" timestamp="1609268763316" />
+    <state x="2569" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609098769493">
+      <screen x="1800" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2569" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1200.769/1800.0.1920.1050@1800.0.1920.1050" timestamp="1609098769493" />
+  </component>
+</project>
