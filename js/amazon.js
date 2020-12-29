@@ -1,5 +1,6 @@
 let respuestas = [-1,0,0,-1,1,1,0,0,0,1,-1,-1,1,1,-1,0,1,0,1,1,0,1,0,0,-1];
 let respuestasIncorrectas = [];
+var contador = 0;
 
 function hideAll(){
     $(".pregunta1").hide();
@@ -59,22 +60,27 @@ function siguiente(pregunta, respuesta){
     switch(pregunta){
         case 1:
             $(".pregunta2").show();
+            contador++;
             break;
         case 2:
             $(".pregunta3").show();
+            contador++;
             break;
         case 3:
             $(".pregunta4").show();
             break;
         case 4:
             $(".pregunta5").show();
+            contador++;
             break;
         case 5:
             if (respuesta == 0) $(".pregunta7").show();
             else $(".pregunta6").show();
+            contador++;
             break;
         case 6:
             $(".pregunta8").show();
+            contador++;
             break;
         case 7:
             if (respuesta == 0) {
@@ -88,19 +94,24 @@ function siguiente(pregunta, respuesta){
             break;
         case 8:
             $(".pregunta10").show();
+            contador++;
             break;
         case 9:
             if (respuesta == 0) $(".pregunta14").show();
             else $(".pregunta13").show();
+            contador++;
             break;
         case 10:
             $(".pregunta9").show();
+            contador++;
             break;
         case 11:
             $(".pregunta6").show();
+            contador++;
             break;
         case 12:
             $(".pregunta6").show();
+            contador++;
             break;
         case 13:
             $(".pregunta15").show();
@@ -112,34 +123,45 @@ function siguiente(pregunta, respuesta){
             break;
         case 15:
             $(".pregunta16").show();
+            contador++;
             break;
         case 16:
             $(".pregunta17").show();
+            contador++;
             break;
         case 17:
             $(".pregunta18").show();
+            contador++;
             break;
         case 18:
             $(".pregunta19").show();
+            contador++;
             break;
         case 19:
             $(".pregunta20").show();
+            contador++;
             break;
         case 20:
             $(".pregunta21").show();
+            contador++;
             break;
         case 21:
             $(".pregunta22").show();
+            contador++;
             break;
         case 22:
             if (respuesta == 0) {
                 $(".pregunta25").show();
                 $(".baner-content").css("padding-top", "10vh");
             }
-            else $(".pregunta23").show();
+            else {
+                $(".pregunta23").show();
+                contador++;
+            }
             break;
         case 23:
             $(".pregunta24").show();
+            contador++;
             break;
         case 24:
             $(".pregunta25").show();
@@ -153,9 +175,13 @@ function siguiente(pregunta, respuesta){
 }
 
 function resultado(){
-   let res = 19 - respuestasIncorrectas.length;
-   if (res == 19) document.getElementById("resultado").innerHTML = "19 / 19. Has conseguido acertar todas las preguntas. ¡Enhorabuena!";
-   else document.getElementById("resultado").innerHTML = res + " / 19 aciertos. Soluciones:";
+   let res = contador - respuestasIncorrectas.length;
+   if (res == contador) document.getElementById("resultado").innerHTML = res + " / " + contador +". Has conseguido acertar todas las preguntas. ¡Enhorabuena!";
+   else {
+       document.getElementById("imagenAmzn").style.bottom = "null";
+       document.getElementById("imagenAmzn").style.top = "0";
+       document.getElementById("resultado").innerHTML = res + " / " + contador + " aciertos. Tus fallos:";
+   }
    hideAllAnswers();
    for (var i = 0; i < respuestasIncorrectas.length; i++) {
        $(".P" + respuestasIncorrectas[i]).show();
