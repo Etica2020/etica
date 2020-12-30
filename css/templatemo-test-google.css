@@ -19,7 +19,7 @@ p {
   }
 
   .tituloRespuestas{
-    font-size: 40px;
+    font-size: 200%;
     text-align: center;
     width: 100%;
     font-weight: bold;
@@ -27,7 +27,7 @@ p {
     text-shadow: 2px 2px 2px rgb(255, 233, 109);
   }
   .tituloRespuestas2{
-    font-size: 25px;
+    font-size: 200%;
     text-align: center;
     width: 100%;
     color:  rgb(185, 159, 13);
@@ -259,7 +259,7 @@ p {
 
   .botones{
     display:flex;
-    width: 28%;
+    width: 30%;
     margin-left: 36%;
     margin-top: 2%;
     height: 70%;
