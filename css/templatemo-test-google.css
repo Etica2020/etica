@@ -320,6 +320,8 @@ p {
   .imagen_estudios{
     width: 40%;
     height: 30%;
+    max-width: 40%;
+    max-height: 30%;
   }
   
   .service-content {
