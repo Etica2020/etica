@@ -370,10 +370,10 @@ p {
   
   .service-content .service-item {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 25px 30px;
+    padding: 4% 6%;
     text-align: center;
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 8%;
   }
   
   .service-content .service-item .line-dec {
