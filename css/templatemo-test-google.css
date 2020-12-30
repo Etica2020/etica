@@ -138,9 +138,9 @@ p {
   .botones_inferiores{
     display: flex;
     justify-content: space-around;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
   }
   .fixed-side-navbar .nav > li a {
     color: #fff;
