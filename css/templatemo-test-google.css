@@ -317,7 +317,10 @@ p {
     margin-top: 15px;
   }
   
-  
+  .imagen_estudios{
+    width: 40%;
+    height: 30%;
+  }
   
   .service-content {
     padding-left: 15px;
