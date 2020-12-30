@@ -593,8 +593,14 @@ footer em {
     font-size: 24px;
   }
 
+  .botones {
+    display: block;
+  }
+
   .baner-content .primary-button {
     margin-top: 15px;
+    width: max-content;
+    display: inline-flex;
   }
 
   .service-content {
