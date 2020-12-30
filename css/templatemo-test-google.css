@@ -194,7 +194,6 @@ p {
     padding: 5% 10%;
     border-radius: 10%;
     text-decoration: none;
-    width: 30%;
     cursor: pointer;
     color: #fff;
     font-size: 200%;
@@ -204,7 +203,6 @@ p {
   
   .primary-button1:hover{
     background-color: #e22020;
-    width: 32%;
     font-size: 220%;
     color: rgb(238, 253, 182);
     text-decoration: none;
@@ -212,7 +210,6 @@ p {
   
   .primary-button1:active{
     background-color:#e02a2a;
-    width: 32%;
     font-size: 220%;
     color: rgb(238, 253, 182);
     text-decoration: none;
@@ -226,7 +223,6 @@ p {
     padding: 5% 10%;
     border-radius: 10%;
     text-decoration: none;
-    width: 30%;
     cursor: pointer;
     color: #fff;
     font-size: 200%;
@@ -236,7 +232,6 @@ p {
   
   .primary-button2:hover{
     background-color: #e22020;
-    width: 32%;
     font-size: 220%;
     color: rgb(238, 253, 182);
     text-decoration: none;
@@ -244,7 +239,6 @@ p {
   
   .primary-button2:active{
     background-color: #e22020;
-    width: 32%;
     font-size: 220%;
     color: rgb(238, 253, 182);
     text-decoration: none;
