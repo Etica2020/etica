@@ -19,7 +19,7 @@ p {
   }
 
   .tituloRespuestas{
-    font-size: 40px;
+    font-size: 200%;
     text-align: center;
     width: 100%;
     font-weight: bold;
@@ -27,7 +27,7 @@ p {
     text-shadow: 2px 2px 2px rgb(255, 233, 109);
   }
   .tituloRespuestas2{
-    font-size: 25px;
+    font-size: 200%;
     text-align: center;
     width: 100%;
     color:  rgb(185, 159, 13);
@@ -41,16 +41,15 @@ p {
   .footer_button{
     display: inline-block;
     background-color: #ff7d27;
-    padding: 15px 24px;
+    padding: 2% 4%;
     border-radius: 3px;
     text-decoration: none;
     letter-spacing: 0.5px;
     cursor: pointer;
-    width: 180px;
     box-shadow: 2px 2px 2px rgb(22, 20, 20);
     color: #fff;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 90%;
     font-weight: 700;
     text-shadow: 1.5px 1.5px 1.5px rgb(14, 12, 12);
   }
@@ -138,9 +137,9 @@ p {
   .botones_inferiores{
     display: flex;
     justify-content: space-around;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
   }
   .fixed-side-navbar .nav > li a {
     color: #fff;
@@ -191,64 +190,55 @@ p {
     background-color: #992020;
     text-shadow: 2px 2px 2px#300b0b;
     box-shadow: 4px 4px 4px #db7878;
-    padding: 15px 24px;
-    border-radius: 5px;
+    padding: 5% 10%;
+    border-radius: 10%;
     text-decoration: none;
-    letter-spacing: 0.5px;
-    width: 100px;
-    height: 70px;
     cursor: pointer;
     color: #fff;
-    font-size: 28px;
+    font-size: 200%;
     font-weight: 700;
-    
+    height: 70%;
   }
   
   .primary-button1:hover{
     background-color: #e22020;
-    width: 110px;
-    height: 76px;
+    font-size: 220%;
     color: rgb(238, 253, 182);
     text-decoration: none;
   }
   
   .primary-button1:active{
     background-color:#e02a2a;
-    width: 110px;
-    height: 76px;
+    font-size: 220%;
     color: rgb(238, 253, 182);
     text-decoration: none;
   }
   
   .primary-button2{
-    float: right;
+    float: left;
     background-color: #992020;
     text-shadow: 2px 2px 2px#300b0b;
     box-shadow: 4px 4px 4px #db7878;
-    padding: 15px 24px;
-    border-radius: 5px;
+    padding: 5% 10%;
+    border-radius: 10%;
     text-decoration: none;
-    letter-spacing: 0.5px;
-    width: 100px;
-    height: 70px;
     cursor: pointer;
     color: #fff;
-    font-size: 30px;
+    font-size: 200%;
     font-weight: 700;
+    height: 70%;
   }
   
   .primary-button2:hover{
-    background-color: #e02a2a;
-    width: 110px;
-    height: 76px;
+    background-color: #e22020;
+    font-size: 220%;
     color: rgb(238, 253, 182);
     text-decoration: none;
   }
   
   .primary-button2:active{
-    background-color: #e02a2a;
-    width: 110px;
-    height: 76px;
+    background-color: #e22020;
+    font-size: 220%;
     color: rgb(238, 253, 182);
     text-decoration: none;
   }
@@ -265,11 +255,13 @@ p {
     text-align: center;
     background-color: white;
   }
+
   .botones{
     display:flex;
-    width: 28%;
-    margin-left: 36%;
+    width: 30%;
+    margin-left: 34%;
     margin-top: 2%;
+    height: 70%;
     justify-content: space-between;
   }
   .baner-content h1 {
@@ -324,7 +316,12 @@ p {
     margin-top: 15px;
   }
   
-  
+  .imagen_estudios{
+    width: 40%;
+    height: 30%;
+    max-width: 40%;
+    max-height: 30%;
+  }
   
   .service-content {
     padding-left: 15px;
@@ -377,10 +374,10 @@ p {
   
   .service-content .service-item {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 25px 30px;
+    padding: 4% 6%;
     text-align: center;
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 8%;
   }
   
   .service-content .service-item .line-dec {
