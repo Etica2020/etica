@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="76fe1edf-421d-45fc-943a-e1ab30080f94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/templatemo-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templatemo-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/templatemo-amazon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/templatemo-amazon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/amazon/amazon.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/amazon/amazon.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
