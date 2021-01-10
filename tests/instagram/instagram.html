@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta http-equiv="Content-Type"content="text/html"; charset="utf-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>TIS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/fontAwesome.css">
+        <link rel="stylesheet" href="../../css/test_instagram.css">
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+         <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+        <script src="../../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../../js/instagram.js"></script>
+    </head>
+
+
+    <div class="parallax-content baner-content" id="home">
+        <div class="contenedor">
+          <div class="pregunta1">
+            <span>¿Utilizas o has utilizado Instagram?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(1,2,1)"><i class="fa fa-heart"></i></a>
+              <a href="#services" onclick="siguiente(1,2,1)"><i class="fa fa-heart-o"></i></a>
+            </div>
+          </div>
+          <div class="pregunta2">
+            <span>¿Al crear una cuenta de Instagram aceptas automáticamente todos sus términos y condiciones?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(2,3,1)"><i class="fa fa-heart"></i></a>
+              <a href="#services" onclick="siguiente(2,3,0)"><i class="fa fa-heart-o"></i></a>
+            </div>
+          </div>
+          <div class="pregunta3">
+            <span>¿Conoce Instagram tu altura?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(3,4,1)"><i class="fa fa-heart"></i></a>
+              <a href="#services" onclick="siguiente(3,4,0)"><i class="fa fa-heart-o"></i></a>
+            </div>
+          </div>
+          <div class="pregunta4">
+            <span>¿Y tu peso?</span>
+            <div class="botones">
+                <a href="#services" onclick="siguiente(4,5,1)"><i class="fa fa-heart"></i></a>
+                <a href="#services" onclick="siguiente(4,5,0)"><i class="fa fa-heart-o"></i></a>
+            </div>
+          </div>
+          <div class="pregunta5">
+            <span>¿Mantiene Instagram encendida la cámara mientras no la estás usando?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(5,6,1)"><i class="fa fa-heart"></i></a>
+              <a href="#services" onclick="siguiente(5,6,0)"><i class="fa fa-heart-o"></i></a>
+            </div>
+          </div>
+          <div class="pregunta6">
+            <span>¿Instagram conoce tu estado de ánimo?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(6,7,1)"><i class="fa fa-heart"></i></a>
+              <a href="#services" onclick="siguiente(6,7,0)"><i class="fa fa-heart-o"></i></a>
+            </div>
+          </div>
+          <div class="pregunta7">
+            <span>¿Crees que tu estado de animo influye en los anuncios que te muestra instagram?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(7,8,1)"><i class="fa fa-heart"></i></a>
+              <a href="#services" onclick="siguiente(7,8,0)"><i class="fa fa-heart-o"></i></a>
+            </div>
+          </div>
+          <div class="pregunta8">
+            <span>¿Crees que gana dinero usando todos estos datos sobre ti?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(8,9,1)"><i class="fa fa-heart"></i></a>
+              <a href="#services" onclick="siguiente(8,9,0)"><i class="fa fa-heart-o"></i></a>
+            </div>
+          </div>
+          <div class="pregunta9">
+            <span>¿Indica Instagram con que empresas comparte toda la información que recopila sobre ti?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(9,-1,0);resultado()"><i class="fa fa-heart"></i></a>
+              <a href="#services" onclick="siguiente(9,-1,1);resultado()"><i class="fa fa-heart-o"></i></a>
+            </div>
+          </div>
+
+          <div class="respuestas">
+            <span id="resultado"></span>
+            <div class="service-content" id="services">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-8">
+                            <div class="row">
+                              <div class="divser col-md-4 P2">
+                                <div class="service-item">
+                                    <h4>¿Al crear una cuenta de Instagram aceptas automáticamente todos sus términos y condiciones?</h4>
+                                    <div class="line-dec"></div>
+                                    <p class="cont">Si quieres usar o descargar la aplicación estas obligado a aceptar las Condiciones y Política de privacidad.</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="divser col-md-4 P3">
+                                <div class="service-item">
+                                    <h4>¿Conoce Instagram tu altura?</h4>
+                                    <div class="line-dec"></div>
+                                    <p class="cont">Mediante algoritmos de inteligencia artificial Instagram analiza las fotos que subes y determina tu altura.</p>
+                                  <div class="ares"> <a target="_blank" class="boton_respuesta" href="https://wwwhatsnew.com/2020/11/02/facebook-instagram-y-apps-de-citas-son-las-que-mas-datos-personales-de-usuarios-recopilan/">Saber más</a></div>
+                                </div>
+                            </div>
+                            <div class="divser col-md-4 P4">
+                              <div class="service-item">
+                                  <h4>¿Y tu peso?</h4>
+                                  <div class="line-dec"></div>
+                                  <p class="cont">Mediante algoritmos de inteligencia artificial Instagram analiza las fotos que subes y determina tu peso.</p>
+                                <div class="ares"><a target="_blank" class="boton_respuesta" href="https://wwwhatsnew.com/2020/11/02/facebook-instagram-y-apps-de-citas-son-las-que-mas-datos-personales-de-usuarios-recopilan/">Saber más</a></div>
+                              </div>
+                          </div>
+                          <div class="divser col-md-4 P5">
+                            <div class="service-item">
+                                <h4>¿Mantiene Instagram encendida la cámara mientras no la estás usando?</h4>
+                                <div class="line-dec"></div>
+                                <p class="cont">Recientemente se descubrió que Instagram mantiene encendida tu cámara mientras utilizas su aplicación, como excusa la empresa dijo que hacian esto para analizar las expresiones faciales que hacen sus usuarios al interactuar con las publicaciones.</p>
+                              <div class="ares"><a target="_blank" class="boton_respuesta" href="https://www.eleconomista.es/internacional/noticias/10776741/09/20/Acusan-a-Facebook-de-espiar-a-usuarios-de-Instagram-mediante-sus-camaras.html">Saber más</a></div>
+                            </div>
+                        </div>
+                        <div class="divser col-md-4 P6">
+                          <div class="service-item">
+                              <h4>¿Instagram conoce tu estado de ánimo?</h4>
+                              <div class="line-dec"></div>
+                              <p class="cont">Sí, analizando las imágenes que subes a la aplicación y la forma mediante la cual interactuas con otras publicaciones.</p>
+                            
+                          </div>
+                      </div>
+                            <div class="divser col-md-4 P7">
+                                <div class="service-item">
+                                    <h4>¿Crees que tu estado de animo influye en los anuncios que te muestra instagram?</h4>
+                                    <div class="line-dec"></div>
+                                    <p class="cont">Sí, para aumentar sus ganancias Instagram ofrece anuncios personalizados en función de todos los datos que tienen sobre sus usuarios incluyendo tu estado de ánimo en cada momento.</p>
+                                  <div class="ares"> <a target="_blank" class="boton_respuesta" href="https://help.instagram.com/519522125107875/?helpref=hc_fnav&bc[0]=Ayuda%20de%20Instagram&bc[1]=Centro%20de%20privacidad%20y%20seguridad">Saber más</a></div>
+                                </div>
+                            </div>
+                           
+                           
+                          <div class="divser col-md-4 P8">
+                            <div class="service-item">
+                                <h4>¿Crees que gana dinero usando todos estos datos sobre ti?</h4>
+                                <div class="line-dec"></div>
+                                <p class="cont">Sí, Instagram sigue la misma estrategia que Facebook dado que pertenecen a la misma empresa, por lo que una de sus principales fuentes de ingresos proviene de ofrecer anuncios personalizados en función de todos los datos que tienen sobre sus usuarios.</p>
+                              <div class="ares"> <a target="_blank" class="boton_respuesta" href="https://cnnespanol.cnn.com/2014/02/09/que-datos-recopila-facebook-y-como-los-aprovecha-la-publicidad/">Saber más</a></div>
+                            </div>
+                        </div>
+                        <div class="divser col-md-4 P9">
+                          <div class="service-item">
+                              <h4>¿Indica Instagram con que empresas comparte toda la información que recopila sobre ti?</h4>
+                              <div class="line-dec"></div>
+                              <p class="cont">No, solo indica que la comparte con empresas asociadas a esta, pero sin indicar en ningún momento cuales son estas.</p>
+                            <div class="ares" > <a target="_blank" class="boton_respuesta" href="https://help.instagram.com/519522125107875/?helpref=hc_fnav&bc[0]=Ayuda%20de%20Instagram&bc[1]=Centro%20de%20privacidad%20y%20seguridad">Saber más</a></div>
+                          </div>
+                      </div>
+
+        
+                            </div>
+                        </div>
+                        <div class="primary-button1">
+                          <a id="volverindex" href="../../index.html">Volver al menú principal</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    hideAll();
+    $(".pregunta1").show();
+</script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            document.getElementById(cityName).style.display = "block";  
+        }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+    </script>
+
+</body>
+</html>
+
+</body>
+</html>

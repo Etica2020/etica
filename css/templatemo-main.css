@@ -161,7 +161,6 @@ ul{
 .primary-button a {
   display: inline-block;
   background-color: #ff7d27;
-  padding: 15px 24px;
   border-radius: 3px;
   text-transform: uppercase;
   font-size: 11px;
@@ -169,18 +168,23 @@ ul{
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 0.5px;
-  margin-left:50px;
   cursor: pointer;
   font-size: 1em;
-  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
   box-shadow: 2px 2px 2px black;
+  text-align: center;
+   width:100px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
 }
 
 
 .primary-button button{
   display: inline-block;
   background-color: #ff7d27;
-  padding: 15px 24px;
+  
   border-radius: 3px;
   text-transform: uppercase;
   font-size: 11px;
@@ -189,11 +193,14 @@ ul{
   font-size: 1em;
   text-decoration: none;
   letter-spacing: 0.5px;
-  margin-left:50px;
+  text-align: center;
+   width:100px;
+   padding-top: 10px;
+   padding-bottom: 10px;
   cursor: pointer;
   border-width: 0;
-  width: 100%;
   box-shadow:2px 2px 2px rgb(0, 0, 0);
+  text-align: center;
 }
 
 .parallax-content {
@@ -211,7 +218,6 @@ ul{
 .botones{
   display:flex;
 justify-content: center;
-padding-right: 5%;
 
 }
 .baner-content h1 {
