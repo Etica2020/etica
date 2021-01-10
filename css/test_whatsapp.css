@@ -52,6 +52,7 @@ p {
     padding: 2px 12px;
     border-radius: 15px;
   }
+
   .fixed-side-navbar .nav > li a.active {
     background-color: transparent;
     color: black;
@@ -596,7 +597,15 @@ color:rgba(0, 0, 0, 0.5);
   }
   
   @media (max-width: 767px){
-	  
+  
+    #resultado {
+      /* width: 70%; */
+      display: inline-block;
+      margin-top: 50px;
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+  }
 	.botones a{
 		width: auto;
 		text-align: center;
@@ -613,9 +622,7 @@ color:rgba(0, 0, 0, 0.5);
     width: auto;
    }
     
-    .baner-content {
-      padding-top: 30vh;
-    }
+ 
 
     .baner-content h1 {
       font-size: 64px;
@@ -626,9 +633,9 @@ color:rgba(0, 0, 0, 0.5);
   
     .baner-content span {
       font-size: 24px;
-	  width:auto;
-    }
-  
+      margin-top: 50%;
+      width: auto;
+  }
     .baner-content .primary-button {
       margin-top: 15px;
     }
@@ -659,14 +666,6 @@ color:rgba(0, 0, 0, 0.5);
   
   }
 
-  .contenedor{
-  
-    padding-right: 15px;
-
-
-    /* margin-right: auto; */
-
-  }
   @media (min-width: 1200px) {
     .container {
       max-width: 1170px;

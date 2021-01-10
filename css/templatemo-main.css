@@ -154,6 +154,10 @@ a:hover { color: #FF0; }
 
 }
 
+.mainprincipal{
+  padding-left:0;
+}
+
 ul{
   padding-inline-start: 0;
 }

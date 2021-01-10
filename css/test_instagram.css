@@ -195,6 +195,10 @@ p {
     padding-top: 10vh;
     text-align: center;
     background-image: url(../img/ii.jpg);
+    background-size: cover;
+    width:100%;
+    height:auto
+    
   }
 
   .first-content{
@@ -585,7 +589,17 @@ p {
   }
   
   @media (max-width: 767px){
-	  
+    
+    #resultado {
+      /* width: 70%; */
+      display: inline-block;
+      margin-top: 50px;
+      color: white;
+      margin-top: 25%;
+      font-size: 2.0em;
+      font-weight: bold;
+  }
+
 	.botones a{
 		width: auto;
 		text-align: center;
@@ -645,14 +659,7 @@ p {
   
   }
 
-  .contenedor{
-  
-    padding-right: 15px;
-    padding-left: 15px;
 
-    /* margin-right: auto; */
-
-  }
   @media (min-width: 1200px) {
     .container {
       max-width: 1170px;
