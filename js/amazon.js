@@ -175,15 +175,15 @@ function siguiente(pregunta, respuesta){
 }
 
 function resultado(){
-   let res = contador - respuestasIncorrectas.length;
-   if (res == contador) document.getElementById("resultado").innerHTML = res + " / " + contador +". Has conseguido acertar todas las preguntas. ¡Enhorabuena!";
-   else {
-       document.getElementById("imagenAmzn").style.bottom = "null";
-       document.getElementById("imagenAmzn").style.top = "0";
-       document.getElementById("resultado").innerHTML = res + " / " + contador + " aciertos. Tus fallos:";
-   }
-   hideAllAnswers();
-   for (var i = 0; i < respuestasIncorrectas.length; i++) {
-       $(".P" + respuestasIncorrectas[i]).show();
-   }
+    let res = contador - respuestasIncorrectas.length;
+    if (res == contador) document.getElementById("resultado").innerHTML = res + " / " + contador +". Has conseguido acertar todas las preguntas. ¡Enhorabuena!";
+    else {
+        document.getElementById("imagenAmzn").style.bottom = "null";
+        document.getElementById("imagenAmzn").style.top = "0";
+        document.getElementById("resultado").innerHTML = res + " / " + contador + " aciertos. Tus fallos:";
+    }
+    hideAllAnswers();
+    for (var i = 0; i < respuestasIncorrectas.length; i++) {
+        $(".P" + respuestasIncorrectas[i]).show();
+    }
 }

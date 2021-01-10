@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76fe1edf-421d-45fc-943a-e1ab30080f94" name="Default Changelist" comment="" />
+    <list default="true" id="76fe1edf-421d-45fc-943a-e1ab30080f94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -26,15 +30,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mC7rw93O9GBdhgMDwX1V550fCQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/amazon/amazon.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/tests/amazon/amazon.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -80,6 +88,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="66" y="92" width="1015" height="584" key="DiffContextDialog" timestamp="1610314237745">
+      <screen x="0" y="0" width="1200" height="769" />
+    </state>
+    <state x="66" y="92" width="1015" height="584" key="DiffContextDialog/0.0.1200.769/1800.0.1920.1050@0.0.1200.769" timestamp="1610314237745" />
+    <state x="381" y="140" key="FileChooserDialogImpl" timestamp="1610314151712">
+      <screen x="0" y="0" width="1200" height="769" />
+    </state>
+    <state x="381" y="140" key="FileChooserDialogImpl/0.0.1200.769/1800.0.1920.1050@0.0.1200.769" timestamp="1610314151712" />
     <state x="2337" y="332" width="664" height="488" key="MultipleFileMergeDialog" timestamp="1609268763316">
       <screen x="1800" y="0" width="1920" height="1050" />
     </state>
