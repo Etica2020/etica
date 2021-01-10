@@ -256,6 +256,8 @@ p {
   }
   .backg{
     background-image:url(../img/whatsappresp.PNG);
+    width: 100%;
+    height: 100%;
   }
   .baner-content .primary-button {
     margin-top: 15px;
@@ -607,11 +609,14 @@ color:rgba(0, 0, 0, 0.5);
 		margin: 20px;
 	 }
 
+   .primary-button1{
+    width: auto;
+   }
     
     .baner-content {
       padding-top: 30vh;
     }
-  
+
     .baner-content h1 {
       font-size: 64px;
     }

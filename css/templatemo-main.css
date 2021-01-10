@@ -584,6 +584,10 @@ footer em {
 
 @media (max-width: 767px){
   
+  .botones{
+    justify-content: space-evenly;
+  }
+
   .baner-content {
     padding-top: 30vh;
   }
