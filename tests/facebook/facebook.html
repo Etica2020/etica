@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta http-equiv="Content-Type"content="text/html"; charset="utf-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>TIS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/fontAwesome.css">
+        <link rel="stylesheet" href="../../css/hero-slider.css">
+        <link rel="stylesheet" href="../../css/test_facebook.css">
+        <link rel="stylesheet" href="../../css/owl-carousel.css">
+		 <script src="../../js/facebook.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+        <script src="../../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../../js/facebook.js"></script>
+    </head>
+
+
+    <div class="parallax-content baner-content" id="home">
+        <div class="contenedor">
+          <div class="pregunta1">
+            <span>¿Utilizas o has utilizado Facebook?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(1,2,1)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(1,2,1)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta2">
+            <span>¿Al crear una cuenta de Facebook aceptas automáticamente todos sus términos y condiciones?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(2,3,1)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(2,3,0)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta3">
+            <span>¿Te piden que proporciones tu ubicación?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(3,4,0)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(3,4,1)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta4">
+            <span>¿Puedes usar los servicios de Facebook sin aceptar que recopilen tus datos?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(4,5,0)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(4,5,1)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta5">
+            <span>¿Crees que Facebook sabe cuál es la marca, modelo y características de tu teléfono/ordenador?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(5,6,1)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(5,6,0)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta6">
+            <span>¿Facebook sabe cuál es tu orientación sexual?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(6,7,1)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(6,7,0)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta7">
+            <span>¿Facebook sabe cuál es tu opinión política?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(7,8,1)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(7,8,0)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta8">
+            <span>¿Facebook promete eliminar tus datos tras eliminar tu cuenta?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(8,9,1)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(8,9,0)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta9">
+            <span>¿Facebook dice cuánto tiempo guarda tus datos o información facebook después de borrar la cuenta?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(9,10,0)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(9,10,1)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta10">
+            <span>¿Facebook puede saber cuándo fue tu última conexión a WhatsApp?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(10,11,1)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(10,11,0)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta11">
+            <span>¿Tiene acceso Facebook a tu lista de contactos del móvil?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(11,12,1)"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(11,12,0)"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta12">
+            <span>¿Sabes como utliza facebook la información que recopila sobre ti?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(12,13,1);resultado()"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(12,13,0);resultado()"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+          <div class="pregunta13">
+            <span>¿Cuando instalaste Facebook aceptaste que recopilaran todos estos datos?</span>
+            <div class="botones">
+              <a href="#services" onclick="siguiente(13,-1,0);resultado()"><i class="fa fa-thumbs-up"></i></a>
+              <a href="#services" onclick="siguiente(13,-1,1);resultado()"><i class="fa fa-thumbs-down"></i></a>
+            </div>
+          </div>
+
+
+          <div class="respuestas backg">
+            <span id="resultado"></span>
+            <div class="service-content" id="services">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="divser col-md-4 P2">
+                                    <div class="service-item">
+                                        <h4>¿Al crear una cuenta de Facebook aceptas automáticamente todos sus términos y condiciones?</h4>
+                                        <div class="line-dec"></div>
+                                        <p class="cont">Si quieres usar o descargar la aplicación estas obligado a aceptar las Condiciones y Política de privacidad.</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="divser col-md-4 P3">
+                                    <div class="service-item">
+                                        <h4>¿Te piden que proporciones tu ubicación?</h4>
+                                        <div class="line-dec"></div>
+                                        <p class="cont">En principio solo tienes que dar tu nombre, apellidos, teléfono o correo, fecha de nacimiento y tu género. Facebook no se limita a monitorizar lo que hacemos en esta red social: la red social persigue nuestra ubicación y nuestra actividad en aplicaciones y sitios web que están conectadas directa o indirectamente con Facebook.                                        </p>
+                                      
+                                    </div>
+                                </div>
+                                <div class="divser col-md-4 P4">
+                                  <div class="service-item">
+                                      <h4>¿Puedes usar los servicios de Facebook sin aceptar que recopilen tus datos?</h4>
+                                      <div class="line-dec"></div>
+                                      <p class="cont">No, al crearte la cuenta se aceptan automáticamente todos los términos y condiciones. En su Política de datos se detalla el uso de nuestros datos personales, que sirven para determinar algunos de los anuncios que se ven y poder ofrecernos el resto de los servicios de facebook.</p>
+                                    <div class="ares"><a target="_blank" class="boton_respuesta" href="https://es-es.facebook.com/privacy/explanation">Saber más</a></div>
+                                  </div>
+                              </div>
+                              <div class="divser col-md-4 P5">
+                                <div class="service-item">
+                                    <h4>¿Crees que Facebook sabe cuál es la marca, modelo y características de tu teléfono/ordenador?</h4>
+                                    <div class="line-dec"></div>
+                                    <p class="cont">Facebook conoce nuestros datos personales, agenda telefónica, mensajes, fotos y vídeos (con su geolocalización, fechas de publicación o direcciones IP asociadas en muchos casos), la información sobre las sesiones que hemos abierto, además de la marca, modelo y características de tu teléfono/ordenador.
+                                    </p>
+                                  <div class="ares"><a target="_blank" class="boton_respuesta" href="https://wwwhatsnew.com/2020/11/02/facebook-instagram-y-apps-de-citas-son-las-que-mas-datos-personales-de-usuarios-recopilan/">Saber más</a></div>
+                                </div>
+                            </div>
+                            <div class="divser col-md-4 P6">
+                              <div class="service-item">
+                                  <h4>¿Facebook sabe cuál es tu orientación sexual?</h4>
+                                  <div class="line-dec"></div>
+                                  <p class="cont">Sí, al igual que otros datos sobre sus usuarios.</p>
+                                <div class="ares"><a target="_blank" class="boton_respuesta" href="https://wwwhatsnew.com/2020/11/02/facebook-instagram-y-apps-de-citas-son-las-que-mas-datos-personales-de-usuarios-recopilan/">Saber más</a></div>
+                              </div>
+                          </div>
+                                <div class="divser col-md-4 P7">
+                                    <div class="service-item">
+                                        <h4>¿Facebook sabe cuál es tu opinión política?</h4>
+                                        <div class="line-dec"></div>
+                                        <p class="cont">Sí, en función de tus gustos, publicaciones Facebook crea un perfil con la información que recopila sobre ti.</p>
+                                      <div class="ares"> <a target="_blank" class="boton_respuesta" href="https://wwwhatsnew.com/2020/11/02/facebook-instagram-y-apps-de-citas-son-las-que-mas-datos-personales-de-usuarios-recopilan/">Saber más</a></div>
+                                    </div>
+                                </div>
+                               
+                               
+                              <div class="divser col-md-4 P8">
+                                <div class="service-item">
+                                    <h4>¿Facebook promete eliminar tus datos tras eliminar tu cuenta?</h4>
+                                    <div class="line-dec"></div>
+                                    <p class="cont">Sí, en su política de datos.</p>
+                                  <div class="ares"> <a target="_blank" class="boton_respuesta" href="https://es-es.facebook.com/privacy/explanation">Saber más</a></div>
+                                </div>
+                            </div>
+                            <div class="divser col-md-4 P9">
+                              <div class="service-item">
+                                  <h4>¿Sabes cuánto tiempo guarda tus datos o información facebook después de borrar la cuenta?</h4>
+                                  <div class="line-dec"></div>
+                                  <p class="cont"> Facebook dice que tras eliminar tu cuenta dejan de almacenar tus datos , en cambio no especifican un periodo en concreto.</p>
+                                <div class="ares" > <a target="_blank" class="boton_respuesta" href="https://es-es.facebook.com/privacy/explanation">Saber más</a></div>
+                              </div>
+                          </div>
+                          <div class="divser col-md-4 P10">
+                            <div class="service-item">
+                                <h4>¿Facebook puede saber cuándo fue tu última conexión a WhatsApp?</h4>
+                                <div class="line-dec"></div>
+                                <p class="cont">Whatsapp se unió a Facebook en 2014, por lo tanto, Facebook y las demás empresas también pueden saber y usar tu información.</p>
+                              <div class="ares"> <a target="_blank" class="boton_respuesta" href="https://mundo.sputniknews.com/sociedad/201803081076863455-whatsapp-politica-privacidad-datos-eeuu/">Saber más</a></div>
+                            </div>
+                        </div>
+                        <div class="divser col-md-4 P11">
+                          <div class="service-item">
+                              <h4>¿Tiene acceso Facebook a tu lista de contactos del móvil?</h4>
+                              <div class="line-dec"></div>
+                              <p class="cont">Sí, Facebook tiene acceso a la lista de contactos del móvil, llamadas y SMS a través de Messenger y Whatsapp.</p>
+                            <div class="ares"><a target="_blank" class="boton_respuesta" href="https://mundo.sputniknews.com/sociedad/201803081076863455-whatsapp-politica-privacidad-datos-eeuu/">Saber más</a></div>
+                          </div>
+                      </div>
+                        <div class="divser col-md-4 P12">
+                          <div class="service-item">
+                              <h4>¿Sabes como utliza facebook la información que recopila sobre ti?</h4>
+                              <div class="line-dec"></div>
+                              <p class="cont">Facebook utiliza la información recopilada sobre nosotros para: proporcionar, peronalizar y mejorar sus productos y proporcionar mediciones, análisis y otros servicios para las empresas que colaboran con Facebook.</p>
+                            <div class="ares"><a target="_blank" class="boton_respuesta" href="https://www.facebook.com/legal/terms/update">Saber más</a></div>
+                          </div>
+                      </div>
+                      <div class="divser col-md-4 P13">
+                        <div class="service-item">
+                            <h4>¿Cuando instalaste Facebook aceptaste que recopilaran todos estos datos?</h4>
+                            <div class="line-dec"></div>
+                            <p class="cont">Al usar cualquier servicio de Facebook aceptas sus terminos y condiciones automáticamente sin preguntartelo.</p>
+                          
+                        </div>
+                    </div>
+
+                               
+                            </div>
+                        </div>
+                        <div class="primary-button1">
+                          <a id="volverindex" href="../../index.html">Volver al menú principal</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    hideAll();
+    $(".pregunta1").show();
+</script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            document.getElementById(cityName).style.display = "block";  
+        }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+    </script>
+
+</body>
+</html>
+
+</body>
+</html>

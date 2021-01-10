@@ -19,7 +19,7 @@ p {
   body { 
     position: relative; /* we need this for the scrollspy */ 
     font-size: 14px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Redressed', cursive;
   }
   
   a:hover { color: #FF0; }
@@ -121,7 +121,7 @@ p {
   }
   
   .primary-button1{
-    background-color: #ff7d27;
+    background-color: #044981;
     padding: 15px 24px;
     border-radius: 5px;
     text-decoration: none;
@@ -139,20 +139,17 @@ p {
     font-weight: 700;
     text-shadow: 1.5px 1.5px 1.5px rgb(56, 56, 56);
   }
-
-  
-#volverindex{
-  color:white;
-}
   
   .primary-button1:hover{
-    background-color: #ffa127;
-    color: rgb(238, 253, 182);
+    background-color: #279eff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
   
+  #volverindex{
+    color:white;
+  }
 
-  
   .primary-button2{
     float: right;
     background-color: #ff7d27;
@@ -197,7 +194,7 @@ p {
   .baner-content {
     padding-top: 10vh;
     text-align: center;
-    background-image: url(../img/facebook.png);
+    background-image: url(../img/ii.jpg);
   }
 
   .first-content{
@@ -249,7 +246,7 @@ p {
     margin-top: 50px;
     font-size: 3.5em;
     color: white;
-    font-weight: bold;
+
   }
   
     #resultado {  
@@ -260,18 +257,20 @@ p {
       font-size: 4em;
       font-weight: bold;
   }
-  .backg{
-    background-image:url(../img/fbrespuestas.png);
-  }
+  
   .baner-content .primary-button {
     margin-top: 15px;
   }
   
+  .backg{
+    background-image:url(../img/fbrespuestas.png);
+  }
+
   .cont{
     font-size:1.2em;
   }
   .divser{
-    height: 420px;
+    height: 350px;
     margin-bottom: 3%;
   }
   .ares{
@@ -280,8 +279,9 @@ p {
     width: 30%;
     position: absolute;
   }
+  
   .service-content {
-	margin-top: 8%;
+	  margin-top: 3%;
   }
   
   .service-content .left-text h4 {
@@ -648,7 +648,7 @@ p {
   .contenedor{
   
     padding-right: 15px;
-
+    padding-left: 15px;
 
     /* margin-right: auto; */
 

@@ -207,15 +207,6 @@ p {
     margin-top: 2%;
     justify-content: space-between;
   }
-
-  img {
-    position: fixed;
-    right: 20px;
-    height: 150px;
-    width: 200px;
-    bottom: 20px;
-  }
-
   .baner-content h1 {
     margin-top: 0px;
     font-size: 128px;
@@ -570,39 +561,9 @@ p {
     .baner-content span {
       font-size: 24px;
     }
-
-    .baner-content .arreglo {
-      font-size: 24px;
-      margin-top: 90px;
-    }
   
     .baner-content .primary-button {
       margin-top: 15px;
-    }
-
-    .baner-content .primary-button1 {
-      margin-top: 15px;
-      display: inline-flex;
-      width: max-content;
-      height: max-content;
-      padding: 5px 10px;
-    }
-
-    .baner-content .primary-button2 {
-      margin-top: 15px;
-      display: inline-flex;
-      width: max-content;
-      height: max-content;
-      padding: 5px 10px;
-      margin-left: 10px;
-    }
-
-    img {
-      position: fixed;
-      height: 100px;
-      width: 120px;
-      bottom: 0;
-      top: 20px;
     }
   
     .service-content {
