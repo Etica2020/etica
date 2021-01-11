@@ -192,7 +192,6 @@ p {
   
   
   .baner-content {
-    padding-top: 10vh;
     text-align: center;
     background-image: url(../img/ii.jpg);
     background-size: cover;
@@ -201,6 +200,10 @@ p {
     
   }
 
+  .backg{
+    background-image:url(../img/instaresp.png);
+    background-size: cover;
+  }
   .first-content{
       margin-left: 20%;
   }
@@ -247,7 +250,7 @@ p {
   .baner-content span {  
 	width: 50%;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 10%;
     font-size: 3.5em;
     color: white;
 
@@ -266,9 +269,6 @@ p {
     margin-top: 15px;
   }
   
-  .backg{
-    background-image:url(../img/fbrespuestas.png);
-  }
 
   .cont{
     font-size:1.2em;
@@ -613,9 +613,7 @@ p {
 	 }
 
     
-    .baner-content {
-      padding-top: 30vh;
-    }
+
   
     .baner-content h1 {
       font-size: 64px;
@@ -626,7 +624,8 @@ p {
   
     .baner-content span {
       font-size: 24px;
-	  width:auto;
+    width:auto;
+    margin-top: 60%;
     }
   
     .baner-content .primary-button {
