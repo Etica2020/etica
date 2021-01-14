@@ -191,7 +191,6 @@ p {
   
   
   .baner-content {
-    padding-top: 10vh;
     text-align: center;
     background-image:url(../img/Twitter/Back_twitter.png);
   }
@@ -241,7 +240,7 @@ p {
   .baner-content span {  
 	width: 50%;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 15%;
     font-size: 3.5em;
     color: white;
     font-weight: bold;
