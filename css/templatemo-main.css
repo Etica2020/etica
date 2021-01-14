@@ -154,6 +154,10 @@ a:hover { color: #FF0; }
 
 }
 
+.mainprincipal{
+  padding-left:0;
+}
+
 ul{
   padding-inline-start: 0;
 }
@@ -174,9 +178,9 @@ ul{
   padding-right: 5px;
   box-shadow: 2px 2px 2px black;
   text-align: center;
-   width:100px;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   width:200px;
+   padding-top: 15px;
+   padding-bottom: 15px;
 
 }
 
@@ -194,9 +198,9 @@ ul{
   text-decoration: none;
   letter-spacing: 0.5px;
   text-align: center;
-   width:100px;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   width:200px;
+   padding-top: 15px;
+   padding-bottom: 15px;
   cursor: pointer;
   border-width: 0;
   box-shadow:2px 2px 2px rgb(0, 0, 0);
@@ -584,6 +588,56 @@ footer em {
 
 @media (max-width: 767px){
   
+  .primary-button a {
+    display: inline-block;
+    background-color: #ff7d27;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    font-size: 1em;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+     width:100px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+  
+  }
+  
+  
+  .primary-button button{
+    display: inline-block;
+    background-color: #ff7d27;
+    
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    text-align: center;
+     width:100px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    cursor: pointer;
+    border-width: 0;
+    box-shadow:2px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+  }
+
+
+  .botones{
+    justify-content: space-evenly;
+  }
+
   .baner-content {
     padding-top: 30vh;
   }
