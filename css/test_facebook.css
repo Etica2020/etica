@@ -261,8 +261,9 @@ p {
       font-weight: bold;
   }
   .backg{
-    background-image:url(../img/fbrespuestas.png);
+    background-image:url(../img/fbr.png);
   }
+
   .baner-content .primary-button {
     margin-top: 15px;
   }
